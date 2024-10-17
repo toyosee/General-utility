@@ -1,0 +1,51 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8; /* Light background for modern look */
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #0d47a1; /* Corporate blue */
+  margin-bottom: 20px;
+}
+
+.dashboard-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dashboard-menu li {
+  margin: 15px;
+}
+
+.dashboard-link {
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #0d47a1; /* Corporate blue */
+  background: white; /* White background for each link */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.dashboard-link:hover {
+  background: #1565c0; /* Lighter blue on hover */
+  color: white;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.5em;
+}

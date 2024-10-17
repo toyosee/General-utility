@@ -1,0 +1,53 @@
+.speed-test-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif; /* Optional: set a default font */
+}
+
+.speed-test-btn, .back-dashboard-btn {
+  font-size: 1.5em; /* Increase button font size */
+  padding: 10px 20px; /* Adjust button padding */
+  margin: 20px 0; /* Add margin for spacing */
+  background-color: #0d47a1; /* Corporate blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.speed-test-btn:hover, .back-dashboard-btn:hover {
+  background-color: #1565c0; /* Lighter shade on hover */
+}
+
+.loader-container {
+  text-align: center;
+  font-size: 1.5em; /* Increase font size for loading text */
+  color: #0d47a1; /* Corporate blue */
+  margin-top: 20px;
+}
+
+.speed-results {
+  display: flex; /* Add this to display results horizontally */
+  justify-content: center; /* Center the results */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #f9f9f9; /* Optional: add background color for better visibility */
+  width: 100%; /* Ensure it spans the full container width */
+}
+
+.speed-result {
+  text-align: center;
+  margin: 0 20px; /* Add margin between each result div */
+  color: #0d47a1; /* Corporate blue */
+}
+
+.speed-graph {
+  margin-top: 20px;
+  width: 100%;
+}
