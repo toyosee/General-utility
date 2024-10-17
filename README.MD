@@ -41,7 +41,7 @@ Steps
 
 bash
 
-git clone https://github.com/your-username/utility-tool-dashboard.git
+git clone https://github.com/toyosee/General-utility
 cd utility-tool-dashboard
 
 Frontend Setup
